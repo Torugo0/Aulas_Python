@@ -1,11 +1,11 @@
-'''
+
 cont = 1
 
 while cont <= 10:
     print(cont)
     cont += 1
 print("FIM")
-'''
+
 
 '''
 # Ver se o número é par
@@ -47,7 +47,7 @@ while cont <= 20
 '''
 CALCULADORA COM WHILE
 
-'''
+
 opcao = 0
 while opcao != 5:
 
@@ -81,3 +81,5 @@ while opcao != 5:
         print("FIM DO PROGRAMA")
     else:
         print("Opção Inválida")
+
+    '''
