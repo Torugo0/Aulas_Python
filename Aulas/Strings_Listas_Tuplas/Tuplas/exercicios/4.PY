@@ -1,6 +1,14 @@
 def separar(frase):
     return frase.split( )
 
-frase = input("Digite uma frase: ")
+lista = []
+frase = 0
+while frase != "0":
+    frase = input("Digite uma frase: ")
+    if frase != "0":
+        lista.append(separar(frase))
+    else:
+        break
 
-print(separar(frase))
+for i in lista:
+    print(i)
