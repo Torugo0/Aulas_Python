@@ -5,7 +5,7 @@ def names_age():
     maiores_age = []
     name_str = None
     age_int = None
-    while name_str != "":
+    while True:
         name_str = input("Digite o nome: ")
         if name_str == "":
             break
