@@ -4,13 +4,12 @@ def formatar_cpf(cpf):
 
 def cliente():
     dados = {}
-    mais = [1,2,3]
-    while (len(dados) < 5):
+    while (len(dados) < 1):
         nome = input("Digite seu nome: ")
         cpf = input("Digite seu cpf: ")
         formato = formatar_cpf(cpf)
         dados[formato] = nome
-    return dados, mais
+    return dados
 
 dicionario_clientes = cliente()
 
