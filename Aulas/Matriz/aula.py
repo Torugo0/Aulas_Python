@@ -2,7 +2,7 @@
 Matriz é uma coleção de itens dispostos em uma tabela retangular organizada em linhas e colunas.
 
     - Para criar uma matriz se faz uma lista de listas
-    matriz = [[1,2,3],
+    matriz =[[1,2,3],
             [4,5,6],
             [7,8,9]]
 
