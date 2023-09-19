@@ -1,3 +1,10 @@
+import random
+
+def random_number():
+    aleatorio = random.random() *100
+    format_aleatorio = (f"{aleatorio:.0f}")
+    return format_aleatorio
+
 def exibe_matriz(matriz):
     for linha in matriz:            # exibe a matriz formatada
         for item in linha:
@@ -6,16 +13,16 @@ def exibe_matriz(matriz):
 
 matriz = []
 
-for linha in range(3):
+for linha in range(5):
     lista = []
     for coluna in range(5):
-        n = int(input("Digite um número: "))
+        n = int(random_number())
         lista.append(n)
     matriz.append(lista)
 exibe_matriz(matriz)
 
+somatorio = 0
 for i in range(len(matriz)):
-    for j in range(len(matriz[i])):
-        if matriz[i][j] > 100:
-            matriz[i][j] = 0
-exibe_matriz(matriz)
+    somatorio += matriz[i][i]
+
+print(somatorio)
