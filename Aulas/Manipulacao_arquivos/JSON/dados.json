@@ -1,0 +1,14 @@
+[
+    {
+        "codigo": 123,
+        "nome": "Vitor Hugo",
+        "idade": 18,
+        "altura": 1.78
+    },
+    {
+        "codigo": 456,
+        "nome": "Ana Clara",
+        "idade": 19,
+        "altura": 1.7
+    }
+]
