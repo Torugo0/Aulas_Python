@@ -5,7 +5,7 @@ alunos = {}
 with open('./Aulas/Manipulacao_arquivos/JSON/exercicios/notas.csv', 'r') as arquivo:
     cont = 0
     for linha in arquivo:
-        if cont > 0:  # Pular o cabeçalho
+        if cont > 0: 
             partes = linha.split(';')
             rm = partes[0]
             nome = partes[1]
